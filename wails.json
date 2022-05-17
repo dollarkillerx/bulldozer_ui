@@ -1,0 +1,14 @@
+{
+  "name": "bulldozer_ui",
+  "outputfilename": "bulldozer_ui",
+  "assetdir": "frontend/dist",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build -w js",
+  "frontend:dev:watcher": "npm run dev -w js",
+  "frontend:dev:serverUrl": "http://localhost:3000",
+  "debounceMS": 1000,
+  "author": {
+    "name": "dollarkillerx",
+    "email": "adapawang@gmail.com"
+  }
+}
